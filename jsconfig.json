@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "baseUrl": "./",
+        "paths": {
+            "#src": [
+                "./"
+            ],
+            "#assets/*": [
+                "./src/assets/*"
+            ],
+            "#redux/*": [
+                "./src/redux/*"
+            ],
+            "#config/*": [
+                "./src/config/*"
+            ],
+            "#containers/*": [
+                "./src/containers/*"
+            ],
+            "#common/*": [
+                "./src/common/*"
+            ],
+            "#res/*": [
+                "./src/res/*"
+            ],
+            "#util/*": [
+                "./src/util/*"
+            ],
+            "#components/*": [
+                "./src/components/*"
+            ],
+            "#context/*": [
+                "./src/context/*"
+            ],
+            "#hoc/*": [
+                "./src/hoc/*"
+            ],
+            "#navigation/*": [
+                "./src/navigation/*"
+            ],
+            "#models/*": [
+                "./src/models/*"
+            ],
+            "#data/*": [
+                "./src/data/*"
+            ],
+        }
+    }
+}
